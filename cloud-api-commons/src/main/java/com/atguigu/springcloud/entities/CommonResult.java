@@ -19,6 +19,9 @@ public class CommonResult<T>
 
     public CommonResult(Integer code,String message)
     {
-        this(code,message,null);
+//        this(code,message,null);
+        this.code = code;
+        this.message = message;
+        this.data = null;
     }
 }
