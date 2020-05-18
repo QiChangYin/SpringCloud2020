@@ -1,0 +1,7 @@
+<select id="getEmploymentById" resultType="com.hd.test.pojo.Employee">
+    select id, last_name,gender, email from employee where id = #{id}
+</select>
+# 新增
+public Interger insertEmploymee(Employee employee);
+# 新增并返回id
+public Interger inserEmployReturnId(Employee employee);

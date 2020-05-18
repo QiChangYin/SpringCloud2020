@@ -10,5 +10,6 @@ import java.util.List;
  */
 public interface LoadBalancer
 {
+//     筛选出服务
     ServiceInstance instances(List<ServiceInstance> serviceInstances);
 }

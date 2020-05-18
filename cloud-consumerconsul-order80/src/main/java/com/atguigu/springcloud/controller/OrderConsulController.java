@@ -18,6 +18,7 @@ public class OrderConsulController
     public static final String INVOKE_URL = "http://consul-provider-payment";
 
     @Resource
+    // 未使用Ribbon包装restTemplate
     private RestTemplate restTemplate;
 
     @GetMapping(value = "/consumer/payment/consul")
